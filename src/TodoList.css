@@ -1,0 +1,19 @@
+#list{
+    background:  linear-gradient(to right, #300d07, #614939, #301919);
+    font-family:'Times New Roman', Times, serif ;
+    font-weight:lighter;
+    font-size:x-large;
+    font-style: italic;
+    align-items: center;
+    height: 30px;
+    color: bisque;
+}
+button{
+    align-items: end;
+    color: whitesmoke;
+    background-color: #614939;
+    
+}
+.completed{
+    text-decoration: line-through;
+}

@@ -1,38 +1,37 @@
-.App {
+h1 {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Header{
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size:xx-large;
+  color: beige;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Status{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size:large;
+  color: beige;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.Entry{
+  margin-top: 90px;
+  margin-bottom: 90px;
+  background:  linear-gradient(to right, #300d07, #614939, #301919);
+  
 }
-
-.App-link {
-  color: #61dafb;
+.Textinput{
+  width: 500px;
+  height: 30px;
+  background-color: #795a46;
+  color: whitesmoke;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Add{
+  width: 55px;
+  height: 35px;
+  background-color: #63381b;
+}
+.Clear{
+  width: 55px;
+  height: 35px;
+  background-color: #63381b;
 }
